@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Student Marks Predictor</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_hours">
+    <property name="geometry"><rect><x>20</x><y>20</y><width>160</width><height>20</height></rect></property>
+    <property name="text"><string>Hours studied per week</string></property>
+   </widget>
+   <widget class="QLineEdit" name="hoursInput">
+    <property name="geometry"><rect><x>200</x><y>20</y><width>180</width><height>22</height></rect></property>
+   </widget>
+   <widget class="QLabel" name="label_attendance">
+    <property name="geometry"><rect><x>20</x><y>60</y><width>160</width><height>20</height></rect></property>
+    <property name="text"><string>Attendance (%)</string></property>
+   </widget>
+   <widget class="QLineEdit" name="attendanceInput">
+    <property name="geometry"><rect><x>200</x><y>60</y><width>180</width><height>22</height></rect></property>
+   </widget>
+   <widget class="QLabel" name="label_assign">
+    <property name="geometry"><rect><x>20</x><y>100</y><width>160</width><height>20</height></rect></property>
+    <property name="text"><string>Assignments submitted</string></property>
+   </widget>
+   <widget class="QLineEdit" name="assignmentsInput">
+    <property name="geometry"><rect><x>200</x><y>100</y><width>180</width><height>22</height></rect></property>
+   </widget>
+   <widget class="QLabel" name="label_gpa">
+    <property name="geometry"><rect><x>20</x><y>140</y><width>160</width><height>20</height></rect></property>
+    <property name="text"><string>Previous GPA</string></property>
+   </widget>
+   <widget class="QLineEdit" name="gpaInput">
+    <property name="geometry"><rect><x>200</x><y>140</y><width>180</width><height>22</height></rect></property>
+   </widget>
+   <widget class="QPushButton" name="predictButton">
+    <property name="geometry"><rect><x>150</x><y>190</y><width>120</width><height>30</height></rect></property>
+    <property name="text"><string>Predict</string></property>
+   </widget>
+   <widget class="QLabel" name="resultLabel">
+    <property name="geometry"><rect><x>20</x><y>240</y><width>360</width><height>40</height></rect></property>
+    <property name="text"><string></string></property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
